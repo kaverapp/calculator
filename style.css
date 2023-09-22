@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main1{
+    
+    height: 50%;
+    width:50% ;
+    display: flex;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1694730653782-c133ac933a7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDYzfDNibm05NWlzSXhFfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=900&q=60);
+    margin: 100px 100px 100px;
+    
+}
+
+#m1{
+    height: 100%;
+    width: 50%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+}
+#m1 input{
+ height: 40px;
+ width: 100%;
+ position: relative;
+ bottom: 50px;
+ font-size: 35px;
+ font-weight: bold;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ border-radius: 25px;
+ text-align: end;
+}
+
+#m2{
+    height: 100%;
+    width: 50%;
+
+   position: relative;
+   top: 40px;
+}
+#m1 button{
+    height:100px ;
+    width:85px ;
+    border-radius: 50px;
+    border: 1px solid slategray;
+    font-size: 20px;
+}
+
+#m2 button{
+    height:150px ;
+    width:85px ;
+    
+    justify-content: space-between;
+}
